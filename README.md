@@ -2,7 +2,7 @@
 
 Customised versions of the official templates to suit NZ installations of 3CX.
 
-Removes some of the annoying/bad parts of the official template
+Removes some of the annoying/bad parts of the official templates
 
 # How To Install
 Download the desired template from releases https://github.com/UFONE-NZ/3CX-Templates/releases
