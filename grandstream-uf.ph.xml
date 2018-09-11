@@ -2,7 +2,7 @@
 <doc xmlns:tcx="http://www.3cx.com">
   <header>
     <type>phone-template</type>
-    <version>80502</version>
+    <version>80504</version>
     <time>2018-04-12 12:00:00</time>
     <name>GrandStream GXP21XX</name>
     <url>http://www.grandstream.com</url>
@@ -1955,7 +1955,7 @@
     <!-- Disable SIP NOTIFY Authentication. 0 - No, 1 - Yes. Default is 0 -->
     <!-- Number: 0,1 -->
     <!-- Mandatory -->
-    <P4428>0</P4428>
+    <P4428>1</P4428>
 
     <!-- Config HTTP/HTTPS User Name -->
     <!-- String -->
