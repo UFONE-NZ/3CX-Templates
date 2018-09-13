@@ -2833,7 +2833,7 @@
     <!-- Attended Transfer Mode. 0 - Static, 1 - Dynamic. Default is 0 -->
     <!-- Number: 0, 1 -->
     <!-- Mandatory -->
-    <P1376>1</P1376>
+    <P1376>0</P1376>
 
     <!-- Transfer Mode Via VPK. 0 - Blind Transfer, 1 - Attended Transfer, 2 - New Call. Default is 0 -->
     <!-- Number: 0, 1 -->
