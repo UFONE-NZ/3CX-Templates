@@ -2,8 +2,8 @@
 <doc xmlns:tcx="http://www.3cx.com">
   <header>
     <type>phone-template</type>
-    <version>87570</version>
-    <time>2019-04-24 12:00:00</time>
+    <version>91548</version>
+	<time>2018-04-12 12:00:00</time>
     <name>GrandStream GXP21XX</name>
     <url>http://www.grandstream.com</url>
 	<templatetype>supported</templatetype>
@@ -304,17 +304,21 @@
       <option value="HAW10" id="1" zone="-10:00">GMT-10:00 (US Hawaiian Time)</option>
       <option value="AKST9AKDT" id="3" zone="-9:00">GMT-9:00 (US Alaska Time)</option>
       <option value="PST8PDT" id="6" zone="-8:00">GMT-8:00 (US Pacific Time, Los Angeles)</option>
+	  <option value="PST8PDT" id="4" zone="-8:00">GMT-8:00 (Canada-Vancouver,Whitehorse)</option>
       <option value="PST8PDT,M3.2.0,M11.1.0" zone="-8:00">GMT-8:00 (Baja California)</option>
       <option value="MST7MDT" id="9" zone="-7:00">GMT-7:00 (US Mountain Time, Denver)</option>
+	  <option value="MST7MDT" id="7" zone="-7:00">GMT-7:00 (Canada-Calgary)</option>
       <option value="MST7" id="10" zone="-7:00">GMT-7:00 (Mountain Time (Arizona, no DST))</option>
       <option value="MST7MDT,M4.1.0,M10.5.0" id="8" zone="-7:00">GMT-07:00 (Chihuahua, La Paz, Mazatlan)</option>
       <option value="CST6CDT" id="14" zone="-6:00">GMT-6:00 (US Central Time, Chicago)</option>
-      <option value="CST+6" id="11" zone="-6:00">GMT-06:00 (Central America)</option>
+	  <option value="CST6CDT" id="11" zone="-6:00">GMT-6:00 (Canada-Winnipeg)</option>
+      <option value="CST+6" id="124" zone="-6:00">GMT-06:00 (Central America)</option>
       <option value="CST6CDT,M4.1.0,M10.5.0" id="13" zone="-6:00">GMT-06:00 (Guadalajara, Mexico City, Monterrey)</option>
-	  <option value="EST5" id="16" zone="-5:00">GMT-5:00 (Eastern Time without daylight saving)</option>	  
-      <option value="TZf+4" id="18" zone="-4:00">GMT-04:00 (Caracas)</option>
-      <option value="AST4ADT" id="19" zone="-4:00">GMT-4:00 (Atlantic Time, Quebec)</option>
-      <option value="AST4ADT,M3.2.0,M11.1.0" id="23" zone="-4:00">GMT-4:00 (New Brunswick)</option>
+	  <option value="EST5" zone="-5:00">GMT-5:00 (Eastern Time without daylight saving)</option>	  
+      <option value="EST5EDT" id="16" zone="-5:00">GMT-5:00 (Canada-Montreal,Ottawa,Quebec)</option>
+	  <option value="TZf+4" id="18" zone="-4:00">GMT-04:00 (Caracas)</option>
+      <option value="AST4ADT" id="19" zone="-4:00">GMT-4:00 (Atlantic Time)</option>
+      <option value="AST4ADT,M3.2.0,M11.1.0" id="22" zone="-4:00">GMT-4:00 (New Brunswick)</option>
       <option value="NST+3:30NDT+2:30,M3.2.0/02:00:00,M11.1.0/02:00:00" id="25" zone="-3:30">GMT-3:30 (Newfoundland)</option>
       <option value="TZK+3" id="26" zone="-3:00">GMT-03:00 (Greenland)</option>
       <option value="BRST+3BRDT+2,M11.3.0/24:00:00,M2.3.0/24:00:00" id="28" zone="-3:00">GMT-3:00 (Brazil, Sao Paulo)</option>
@@ -322,9 +326,9 @@
       <option value="TZL+2" id="30" zone="-2:00">GMT-02:00 (Mid-Atlantic)</option>
       <option value="TZM+1" id="31" zone="-1:00">GMT-01:00 (Cape Verdi Is.)</option>
 	  <option value="TZM+1TZN+0,M3.5.0/24:00:00,M10.5.0/1:00:00" id="35" zone="0:00">GMT (Azores)</option>
-      <option value="TZN+0" id="32" zone="0:00">GMT (Edinburgh, Casablanca)</option>
 	  <option value="TZN+0" id="126" zone="0:00">GMT (Reykjavik, Monrovia)</option>
       <option value="GMT+0BST-1,M3.5.0/01:00:00,M10.5.0/02:00:00" id="36" zone="0:00">GMT (London, Great Britain)</option>
+	  <option value="GMT+0BST-1,M3.5.0/01:00:00,M10.5.0/02:00:00" zone="0:00">GMT (Edinburgh)</option>
       <option value="WET-0WEST-1,M3.5.0/01:00:00,M10.5.0/02:00:00" id="34" zone="0:00">GMT (Lisbon)</option>
       <option value="GMT+0IST-1,M3.5.0/01:00:00,M10.5.0/02:00:00" id="33" zone="0:00">GMT (Dublin, Ireland) </option>
       <option value="CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00" id="45" zone="1:00">GMT+01:00 (Paris)</option>
@@ -337,6 +341,7 @@
 	  <option value="CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00" id="47" zone="1:00">GMT+01:00 (Budapest)</option>
 	  <option value="CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00" id="51" zone="1:00">GMT+01:00 (Amsterdam)</option>
 	  <option value="CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00" id="39" zone="1:00">GMT+01:00 (Belgium)</option>
+	  <option value="CET-1" zone="1:00">GMT+01:00 (Casablanca)</option>
       <option value="EET-2EEST-3,M3.4.5/02:00:00,M10.5.0/02:00:00" id="71" zone="2:00">GMT+02:00 (Israel)</option>
 	  <option value="TZP-2" id="66" zone="2:00">GMT+02:00 (Cairo)</option>
 	  <option value="EET-2EEST-3,M3.5.0/03:00:00,M10.5.0/04:00:00" id="70" zone="2:00">GMT+02:00 (Athens)</option>
@@ -2841,7 +2846,7 @@
     <!-- Attended Transfer Mode. 0 - Static, 1 - Dynamic. Default is 0 -->
     <!-- Number: 0, 1 -->
     <!-- Mandatory -->
-    <P1376>0</P1376>
+    <P1376>1</P1376>
 
     <!-- Transfer Mode Via VPK. 0 - Blind Transfer, 1 - Attended Transfer, 2 - New Call. Default is 0 -->
     <!-- Number: 0, 1 -->
@@ -3222,7 +3227,6 @@
 
     <!-- Time Zone -->
     <!-- P value                                                        Web GUI Option  -->
-
 	<!-- auto    	  													Auto       -->
 	<!-- TAZ+12      													GMT-12:00 (International Date Line West)       -->
 	<!-- TAB+11      													GMT-11:00 (Midway Island, Samoa)       -->
@@ -3241,9 +3245,9 @@
 	<!-- TZf+4:30      													GMT-04:30 (Caracas)     -->
 	<!-- AST4ADT      													GMT-04:00 (Atlantic Time)   -->
 	<!-- AST4ADT,M3.2.0,M11.1.0      									GMT-04:00 (Atlantic Time (New Brunswick))   -->
-	<!-- NST+3:30NDT+2:30,M3.2.0/00:01:00,M11.1.0/00:01:00      		GMT-03:30 (Newfoundland Time)  -->
+	<!-- NST+3:30NDT+2:30,M3.2.0/02:00:00,M11.1.0/02:00:00              GMT-03:30 (Newfoundland Time)  -->
 	<!-- TZK+3      													GMT-03:00 (Greenland)   -->
-	<!-- BRST+3BRDT+2,M10.3.0,M2.3.0      								GMT-03:00 (Brazil, Sao Paulo)     -->
+	<!-- BRST+3BRDT+2,M11.3.0/24:00:00,M2.3.0/24:00:00                  GMT-03:00 (Brazil, Sao Paulo)     -->
 	<!-- UTC+3      													GMT-02:00 (Argentina)     -->
 	<!-- TZL+2      													GMT-02:00 (Mid-Atlantic)    -->
 	<!-- TZM+1TZN+0,M3.5.0/24:00:00,M10.5.0/1:00:00      				GMT (Azores)     -->
@@ -3252,11 +3256,11 @@
 	<!-- WET-0WEST-1,M3.5.0/01:00:00,M10.5.0/02:00:00      				GMT (Lisbon, Portugal)  -->
 	<!-- GMT+0IST-1,M3.5.0/01:00:00,M10.5.0/02:00:00      				GMT (Dublin, Ireland)    -->
 	<!-- CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00      				GMT+01:00 (Paris, Vienna, Warsaw, Roma, Madrid, Prague, Berlin, Budapest, Amsterdam, Belgium)   -->
-	<!-- TZP-2      													GMT+02:00 (Cairo, Istanbul, Bucharest)    -->
+	<!-- TZP-2                                                          GMT+02:00 (Cairo, Bucharest)    -->
 	<!-- EET-2EEST-3,M3.5.0/03:00:00,M10.5.0/04:00:00      				GMT+02:00 (Helsinki, Athens, Tallinn)   -->
 	<!-- EET-2EEST,M3.5.0/3,M10.5.0/4      								GMT+02:00 (Kyiv, Ukraine)     -->
 	<!-- EET-2EEST-3,M3.4.5/02:00:00,M10.5.0/02:00:00      				GMT+02:00 (Israel)     -->
-	<!-- TZQ-3      													GMT+03:00 (Kuwait, Baghdad, Nairobi)    -->
+	<!-- TZQ-3                                                          GMT+03:00 (Kuwait, Baghdad, Istanbul, Nairobi)    -->
 	<!-- MSK-3      													GMT+03:00 (Moscow, Russia)    -->
 	<!-- IRST-3:30IRDT-4:30,M3.4.4/24:00:00,M9.4.6/24:00:00      		GMT+03:00 (Tehran)   -->
 	<!-- TZR-4      													GMT+04:00 (Abu Dhabi, Baku)     -->
@@ -3283,7 +3287,7 @@
 	<!-- FJT-12FJST-13,M11.1.0/02:00:00,M1.2.0/03:00:00      			GMT+12:00 (Fiji)    -->
 	<!-- TZe-13      													GMT+13:00 (Nuku'alofa)      -->
 	<!-- customize      												Self-Defined Time Zone      -->
-	
+    
     <!-- String -->
     <!-- Mandatory -->
     <P64>%%param::time_timezone_grandstreamexec%%</P64>
